@@ -23,8 +23,9 @@ public class calculator {
 
     public static void main(String[] args) {
         calculator calculator = new calculator();
-        int num1 = 100;
-        int num2 = 200;
+        int num1 = 10;
+        int num2 = 20;
+
 
         System.out.println("Choose the operation to be performed:");
         System.out.println("1. Addition");
@@ -50,7 +51,14 @@ public class calculator {
                 break;
             default:
                 System.out.println("Invalid choice.");
+                
+
+                
+
+                
+                
         }
+        System.out.println("modification");
 
         scanner.close();
     }
